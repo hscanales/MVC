@@ -24,9 +24,9 @@ public class incController implements iController{
 
     @Override
     public void incValue() {
-        System.out.println("ENTRO");
-        //model.increment();
-        //view.setValue(Integer.toString(model.getValue()));
+        
+        model.increment();
+        view.setValue(Integer.toString(model.getValue()));
     }
 
     @Override
