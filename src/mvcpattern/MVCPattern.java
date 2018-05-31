@@ -24,7 +24,7 @@ public class MVCPattern {
         //view.setController(controlador);
         
         JFrame ventana = new JFrame ("MVC PATTERN EXAMPLE");
-        ventana.setContentPane(new GUI());
+        ventana.setContentPane(view);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setResizable(false);
         ventana.pack();
