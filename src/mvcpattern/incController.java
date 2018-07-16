@@ -13,11 +13,13 @@ public class incController implements iController{
     
     private iView view;
     private iModel model;
+    private incController controlador;
 
     public incController(iView view, iModel model) {
         this.view = view;
         this.model = model;
         view.setController(this);
+        
     }
     
     

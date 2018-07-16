@@ -30,8 +30,7 @@ public class MVCPattern {
         ventana.pack();
         ventana.setVisible(true);
         ventana.setLocationRelativeTo(null);
-        System.out.println("Antes del GUI");
-        System.out.println("fin");
+
         
     }
     
